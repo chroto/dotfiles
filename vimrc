@@ -4,6 +4,7 @@
 
 "" Pathogen for easy adding
 "" to runtime environment
+filetype off
 call pathogen#infect()
 syntax on
 filetype plugin indent on
