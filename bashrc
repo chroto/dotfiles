@@ -9,4 +9,5 @@ PS1='[\u@\h \W]\$ '
 
 H_ENV="$HOME/.ssh/environment"
 [[ -f ~/.f ]] && . ~/.f/f.sh
+[[ -f ~/.gitprofile ]] && . ~/.gitprofile
 [[ -f ~/.local_settings ]] && . ~/.local_settings
