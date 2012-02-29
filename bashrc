@@ -10,5 +10,6 @@ export F_PATH="$HOME/.f/unctions"
 export H_ENV="$HOME/.ssh/environment"
 [[ -f ~/.git-completion.bash ]] && . ~/.git-completion.bash
 [[ -f ~/.gitprofile ]] && . ~/.gitprofile
+[[ -f ~/.aliases ]] && . ~/.aliases
 [[ -f ~/.f/f.sh ]] && . ~/.f/f.sh
 [[ -f ~/.local_settings ]] && . ~/.local_settings
