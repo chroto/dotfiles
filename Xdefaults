@@ -28,20 +28,6 @@ XTerm*color14: #71bebe
 XTerm*color15: #ffffff
 XTerm*cursorColor: magenta
 XTerm*utf8: 1
-
-!UXTerm*font: xft:Terminus:pixelsize=13 
-!UXTerm*font: -*-terminus-medium-r-*-*-12-*-*-*-*-*-iso8859-1
-!UXTerm*font: -*-terminus-medium-r-*-*-12-*-*-*-*-*-iso8859-1
-UXTerm*font: -*-terminus-medium-*-*-*-14-*-*-*-*-*-iso10646-1
- 
-
-!UXTerm*font1: -*-*-*-*-*-*-2-*-*-*-*-*-*-*
-!UXTerm*font2: -misc-fixed-*-r-normal-*-8-*-*-*-*-*-iso8859-*
-!UXTerm*font3: -b&h-lucidatypewriter-bold-*-*-*-12-*-*-*-*-*-*-*
-!UXTerm*font4: -*-screen-bold-r-normal-*-16-*-*-*-*-*-iso8859-*
-!UXTerm*font5: -*-lucidatypewriter-medium-*-*-*-18-*-*-*-*-*-*-*
-!UXTerm*font6: -*-lucidatypewriter-medium-*-*-*-20-*-*-*-*-*-*-*
-!UXTerm*font7: -dec-terminal-bold-r-normal-*-14-*-*-*-*-*-iso8859-*
 !
 !!!!!!!!!!!
 ! ZENBURN
@@ -66,21 +52,9 @@ UXTerm*color14: #93e0e3
 UXTerm*color15: #ffffff
 UXTerm*cursorColor: magenta
 
-aterm*font: -*-terminus-medium-r-*-*-12-*-*-*-*-*-iso8859-*
-aterm*font1: -*-*-*-*-*-*-2-*-*-*-*-*-*-*
-aterm*font2: -misc-fixed-*-r-normal-*-8-*-*-*-*-*-iso8859-*
-aterm*font3: -b&h-lucidatypewriter-bold-*-*-*-12-*-*-*-*-*-*-*
-aterm*font4: -*-screen-bold-r-normal-*-16-*-*-*-*-*-iso8859-*
-aterm*font5: -*-lucidatypewriter-medium-*-*-*-18-*-*-*-*-*-*-*
-aterm*font6: -*-lucidatypewriter-medium-*-*-*-20-*-*-*-*-*-*-*
-aterm*font7: -dec-terminal-bold-r-normal-*-14-*-*-*-*-*-iso8859-*
-!
-  aterm*loginShell:true
-  aterm*transparent:false
-  aterm*shading:60
-  aterm*saveLines:32767
-  aterm*scrollBar: false
-
+!!!!!!!!
+! urxvt
+!!!!!!!!
 URxvt*termName: rxvt-256color
 URxvt*perl-ext:           default,matcher
 URxvt*urlLauncher:        google-chrome
@@ -95,9 +69,7 @@ URxvt.urgentOnBell: True
 
 URxvt.insecure: true
 
-URxvt*font: xft:Terminus:pixelsize=14
-!URxvt*font: xft:Inconsolata:pixelsize=11
-
+UXTerm*font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-1
 URxvt*background: #3f3f3f
 URxvt*foreground: #dcdccc
 
@@ -117,3 +89,4 @@ URxvt*color12: #94bff3
 URxvt*color13: #ec93d3
 URxvt*color14: #93e0e3
 URxvt*color15: #ffffff
+URxvt*cursorColor: magenta
