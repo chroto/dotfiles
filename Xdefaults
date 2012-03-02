@@ -74,7 +74,7 @@ URxvt*background: #3f3f3f
 URxvt*foreground: #dcdccc
 
 URxvt*color0:  #1E2320
-URxvt*color1:  #705050
+URxvt*color1:  #db0000
 URxvt*color2:  #60b48a
 URxvt*color3:  #dfaf8f
 URxvt*color4:  #506070
