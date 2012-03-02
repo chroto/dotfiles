@@ -90,6 +90,8 @@ set shiftwidth=4
 """"""
 " Keybindings
 "
+"" set leader to easier key
+let mapleader=","
 
 "" toggle whitespace chars
 nmap <silent> <leader>s :set nolist!<CR>
@@ -111,8 +113,6 @@ let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 map <Leader>a :Ack
 
 
-"" set leader to easier key
-let mapleader=","
 
 "" markers
 nnoremap ' `
