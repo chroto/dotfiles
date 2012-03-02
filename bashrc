@@ -12,4 +12,5 @@ export H_ENV="$HOME/.ssh/environment"
 [[ -f ~/.gitprofile ]] && . ~/.gitprofile
 [[ -f ~/.aliases ]] && . ~/.aliases
 [[ -f ~/.f/f.sh ]] && . ~/.f/f.sh
+[[ -f ~/.b/b.sh ]] && . ~/.b/b.sh
 [[ -f ~/.local_settings ]] && . ~/.local_settings
