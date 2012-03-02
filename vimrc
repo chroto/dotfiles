@@ -113,7 +113,6 @@ let g:ackprg="ack-grep -H --nocolor --nogroup --column"
 map <Leader>a :Ack
 
 
-
 "" markers
 nnoremap ' `
 nnoremap ` '
@@ -125,9 +124,6 @@ nmap <C-Down> ddp
 "" Bubble multiple lines
 vmap <C-up> xkP`[V`]
 vmap <C-down> xp`[V`]
-
-"" set leader to easier key
-let mapleader=","
 
 "" faster scroll
 nnoremap <C-e> 5<C-e>

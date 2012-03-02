@@ -1,6 +1,6 @@
 let g:pydiction_location = '/home/chris/.vim/pydiction/complete-dict'
 let g:pydiction_menu_height = 20
-let python_space_error_highlight = 1
+let python_highlight_space_errors = 1
 
 " PEP 8
 set expandtab
