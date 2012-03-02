@@ -35,7 +35,7 @@ XTerm*utf8: 1
 UXTerm*background: #3f3f3f
 UXTerm*foreground: #dcdccc
 UXTerm*color0:  #1E2320
-UXTerm*color1:  #705050
+UXTerm*color1:  #db0000
 UXTerm*color2:  #60b48a
 UXTerm*color3:  #dfaf8f
 UXTerm*color4:  #506070
