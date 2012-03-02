@@ -1,3 +1,6 @@
 [submodule "f"]
 	path = f
 	url = git@github.com:colinta/f
+[submodule "b"]
+	path = b
+	url = https://github.com/rockymeza/b.git
