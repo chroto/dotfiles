@@ -4,3 +4,6 @@
 [submodule "b"]
 	path = b
 	url = https://github.com/rockymeza/b.git
+[submodule "keyboards"]
+	path = keyboards
+	url = git@github.com:chroto/keyboards
