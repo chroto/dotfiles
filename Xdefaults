@@ -69,7 +69,7 @@ URxvt.urgentOnBell: True
 
 URxvt.insecure: true
 
-UXTerm*font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-1
+URxvt*font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-1
 URxvt*background: #3f3f3f
 URxvt*foreground: #dcdccc
 
