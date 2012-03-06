@@ -69,7 +69,6 @@ set backupdir=~/.vim-tmp,/tmp
 set directory=~/.vim-tmp,/tmp
 
 "" smarter tabs
-
 set expandtab
 set smartindent
 set autoindent
