@@ -6,9 +6,8 @@
 "" to runtime environment
 filetype off
 call pathogen#infect()
-syntax on
 filetype plugin indent on
-
+syntax on
 
 "" Some basic stuff to make
 "" vim less vi-like
@@ -141,10 +140,3 @@ nmap <C-s> :Sscratch
 :nnoremap <silent> gr "_yiw:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR><c-o>/\w\+\_W\+<CR><c-l>
 :nnoremap <silent> gl "_yiw?\w\+\_W\+\%#<CR>:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR><c-o><c-l>
 
-"" MISC ""
-
-"" If this isn't defined here
-"" then highlighting doesnt work.
-"" I think vimscript in /syntax gets
-"" called before ftplugin ???
-let python_highlight_space_errors = 1
