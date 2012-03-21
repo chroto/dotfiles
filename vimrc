@@ -18,7 +18,6 @@ set nocompatible
 "" locale
 set encoding=utf-8
 
-
 "" theming
 set number
 set ruler
@@ -82,7 +81,6 @@ set shiftwidth=4
 :command W w
 :command Q q
 
-
 "" save as sudo
 :command Wsudo w !sudo tee %
 
@@ -132,6 +130,10 @@ nnoremap <C-y> 5<C-y>
 map gw :g/\s\+$//
 "" rotate 2 items along a comma
 map g, :s/\([^()]*\),\([^()]*\)/\2,\1/<Enter>
+
+map gp "*p
+map gP "*P
+map gy "*y
 
 "" open scratch
 nmap <C-s> :Sscratch
