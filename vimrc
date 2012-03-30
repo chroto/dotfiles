@@ -142,3 +142,12 @@ nmap <C-s> :Sscratch
 :nnoremap <silent> gr "_yiw:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR><c-o>/\w\+\_W\+<CR><c-l>
 :nnoremap <silent> gl "_yiw?\w\+\_W\+\%#<CR>:s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR><c-o><c-l>
 
+"" Python scripts
+" Load python scripts
+if has("python")
+  " Comment code
+  pyfile $HOME/.vim/python/comment_code.py
+  map <Leader>c :python comment_code()<CR>
+else
+  echo "Error: This copy of vim does not support python"
+endif
