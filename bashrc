@@ -15,6 +15,17 @@ export H_ENV="$HOME/.ssh/environment"
 [[ -f ~/.b/b.sh ]] && . ~/.b/b.sh && . ~/.b/b_completion.sh
 [[ -f ~/.local_settings ]] && . ~/.local_settings
 
+function append_to_path {
+   if [[ -n $1 ]]; then
+       PATH=$PATH:$1;
+       export PATH;
+   fi
+}
+
+if [[ -d ~/scripts ]]; then
+    append_to_path /home/scripts;
+fi
+
 # http://help.github.com/ssh-key-passphrases/
 
 SSH_ENV="$HOME/.ssh/environment"
