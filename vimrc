@@ -95,6 +95,9 @@ nmap <Space> zz
 "" set leader to easier key
 let mapleader=","
 
+"" DATE (cool!)
+nmap <leader>d :r !date<CR>
+
 "" toggle whitespace chars
 nmap <silent> <leader>s :set nolist!<CR>
 
