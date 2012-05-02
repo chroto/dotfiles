@@ -23,7 +23,7 @@ function append_to_path {
 }
 
 if [[ -d ~/scripts ]]; then
-    append_to_path /home/scripts;
+    append_to_path ~/scripts;
 fi
 
 # http://help.github.com/ssh-key-passphrases/
