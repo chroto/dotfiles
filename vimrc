@@ -76,6 +76,10 @@ set shiftwidth=4
 """"""
 " Aliases
 "
+" Center screen
+nmap <Space> zz
+
+" Saving
 :command Wq wq
 :command WQ wq
 :command W w
