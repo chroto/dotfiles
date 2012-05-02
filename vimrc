@@ -82,6 +82,7 @@ nmap <Space> zz
 " Saving
 :command Wq wq
 :command WQ wq
+:command Wqall wqall
 :command W w
 :command Q q
 
