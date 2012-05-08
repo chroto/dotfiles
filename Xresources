@@ -1,5 +1,5 @@
 
-XTerm*font: -*-terminus-medium-r-*-*-12-*-*-*-*-*-iso8859-*
+XTerm*font: -*-terminus-medium-r-*-*-12-*-*-*-*-*-*-u
 XTerm*font1: -*-*-*-*-*-*-2-*-*-*-*-*-*-*
 XTerm*font2: -misc-fixed-*-r-normal-*-8-*-*-*-*-*-iso8859-*
 XTerm*font3: -b&h-lucidatypewriter-bold-*-*-*-12-*-*-*-*-*-*-*
@@ -28,6 +28,15 @@ XTerm*color14: #71bebe
 XTerm*color15: #ffffff
 XTerm*cursorColor: magenta
 XTerm*utf8: 1
+
+UXTerm*font: -*-terminus-medium-r-*-*-12-*-*-*-*-*-*-u
+UXTerm*font1: -*-*-*-*-*-*-2-*-*-*-*-*-*-*
+UXTerm*font2: -misc-fixed-*-r-normal-*-8-*-*-*-*-*-iso8859-*
+UXTerm*font3: -b&h-lucidatypewriter-bold-*-*-*-12-*-*-*-*-*-*-*
+UXTerm*font4: -*-screen-bold-r-normal-*-16-*-*-*-*-*-iso8859-*
+UXTerm*font5: -*-lucidatypewriter-medium-*-*-*-18-*-*-*-*-*-*-*
+UXTerm*font6: -*-lucidatypewriter-medium-*-*-*-20-*-*-*-*-*-*-*
+UXTerm*font7: -dec-terminal-bold-r-normal-*-14-*-*-*-*-*-iso8859-*
 !
 !!!!!!!!!!!
 ! ZENBURN
@@ -69,7 +78,7 @@ URxvt.urgentOnBell: True
 
 URxvt.insecure: true
 
-UXTerm*font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-iso10646-1
+UXTerm*font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-u
 URxvt*background: #3f3f3f
 URxvt*foreground: #dcdccc
 
