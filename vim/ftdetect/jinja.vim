@@ -1,3 +1,3 @@
 if has("autocmd")
-  au  BufNewFile,BufRead *.j2 set filetype=htmljinja
+  au  BufNewFile,BufRead *.jinja2,*.j2 set filetype=htmljinja
 endif
