@@ -159,3 +159,18 @@ if has("python")
 else
   echo "Error: This copy of vim does not support python"
 endif
+
+"" Syntax
+let g:syntastic_check_on_open = 1
+let g:syntastic_python_checker = "flake8"
+" Ignore line too long pep errors
+let g:syntastic_python_checker_args = "--ignore=E501"
+let g:syntastic_javascript_checker = "jshint"
+" Load options for jshint which include linting of some common
+" js anti-patterns.  There are more options you can read about
+" at jshint.com.
+let g:syntastic_javascript_jshint_conf = $HOME."/.vim/syntax/jshint.json"
+
+let b:shell = " "
+
+:set fileformat=unix
