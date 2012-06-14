@@ -62,6 +62,9 @@ let g:CommandTMaxFiles=30000
 
 set scrolloff=5
 
+"" LatexBox options
+let g:LatexBox_latexmk_options = "-pvc -pdfps"
+
 "" backup dirs
 set backupdir=~/.vim-tmp,/tmp
 set directory=~/.vim-tmp,/tmp
