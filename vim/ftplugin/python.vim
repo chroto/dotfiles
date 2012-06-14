@@ -11,3 +11,5 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set autoindent
+
+nmap <leader>q :norm oimport pdb; pdb.set_trace()<CR>
