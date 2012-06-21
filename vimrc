@@ -9,6 +9,9 @@ call pathogen#infect()
 filetype plugin indent on
 syntax on
 
+"" set leader to easier key
+let mapleader=","
+
 "" Some basic stuff to make
 "" vim less vi-like
 set bs=2
@@ -95,8 +98,6 @@ nmap <Space> zz
 """"""
 " Keybindings
 "
-"" set leader to easier key
-let mapleader=","
 
 "" DATE (cool!)
 nmap <leader>d :r !date<CR>

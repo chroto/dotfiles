@@ -31,6 +31,10 @@ if [[ ! -e ~/.aliases ]]; then
   ln -s ~/dotfiles/aliases .aliases
 fi
 
+if [[ ! -e ~/.xinitrc ]]; then
+  ln -s ~/dotfiles/xinitrc .xinitrc
+fi
+
 if [[ ! -e ~/.inputrc ]]; then
   ln -s ~/dotfiles/inputrc .inputrc
 fi
