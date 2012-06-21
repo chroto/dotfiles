@@ -12,3 +12,4 @@ setlocal include=^import\\s*\\(qualified\\)\\?\\s*
 setlocal includeexpr=substitute(v:fname,'\\.','/','g').'.'
 setlocal suffixesadd=hs,lhs,hsc
 
+let g:haddock_browser='/usr/bin/chromium'
