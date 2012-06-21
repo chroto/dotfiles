@@ -1,0 +1,60 @@
+#!/usr/bin/env bash
+if [[ ! -f ~/.bash_profile ]]; then
+  touch ~/.bash_profile
+fi
+
+if [[ ! `grep 'source sh/profile' < ~/.bash_profile` ]]; then
+  echo "source sh/profile" >> ~/.bash_profile
+fi
+
+if [[ ! -e ~/.vim ]]; then
+  ln -s ~/dotfiles/vim .vim
+fi
+
+if [[ ! -e ~/.gitprofile ]]; then
+  ln -s ~/dotfiles/gitprofile .gitprofile
+fi
+
+if [[ ! -e ~/.bashrc ]]; then
+  ln -s ~/dotfiles/bashrc .bashrc
+fi
+
+if [[ ! -e ~/.vimrc ]]; then
+  ln -s ~/dotfiles/vimrc .vimrc
+fi
+
+if [[ ! -e ~/.bash_logout ]]; then
+  ln -s ~/dotfiles/bash_logout .bash_logout
+fi
+
+if [[ ! -e ~/.aliases ]]; then
+  ln -s ~/dotfiles/aliases .aliases
+fi
+
+if [[ ! -e ~/.inputrc ]]; then
+  ln -s ~/dotfiles/inputrc .inputrc
+fi
+
+if [[ ! -e ~/.Xdefaults ]]; then
+  ln -s ~/dotfiles/Xdefaults .Xdefaults
+fi
+
+if [[ ! -e ~/.Xresources ]]; then
+  ln -s ~/dotfiles/Xresources .Xresources
+fi
+
+if [[ ! -e ~/.gitconfig ]]; then
+  cp ~/dotfiles/gitconfig .gitconfig
+fi
+
+if [[ ! -e ~/.xmonad ]]; then
+    mkdir ~/.xmonad
+fi
+
+if [[ ! -e ~/.xmonad/xmonad.hs ]]; then
+  cp ~/dotfiles/xmonad/xmonad.hs .xmonad
+fi
+
+if [[ ! -e ~/.xmobarrc ]]; then
+  cp ~/dotfiles/xmonad/xmobarrc .xmobarrc
+fi
