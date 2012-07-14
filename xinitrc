@@ -4,4 +4,5 @@ xset fp rehash
  # set the cursor
 xsetroot -cursor_name left_ptr
 exec xmonad
-xmodmap /home/chris/.keyboards/layout/colemak
+xmodmap ~/.keyboards/layouts/colemak
+xloadimage -fullscreen -onroot ~/wallpaper/wallpaper.png

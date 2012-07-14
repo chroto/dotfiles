@@ -8,7 +8,7 @@
  main = do
     xmproc <- spawnPipe "xmobar /home/chris/.xmobarrc"
     xmonad $ defaultConfig {
-        manageHook = manageDocks <+> manageHook defaultConfig
+        manageHook = manageHook defaultConfig <+> manageDocks
         , layoutHook = avoidStruts $ layoutHook defaultConfig
         , logHook = dynamicLogWithPP xmobarPP {
             ppOutput = hPutStrLn xmproc
