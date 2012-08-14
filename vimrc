@@ -167,6 +167,7 @@ endif
 "" Syntax
 let g:syntastic_check_on_open = 1
 let g:syntastic_python_checker = "flake8"
+let g:syntastic_haskell_checker = "hlint"
 " Ignore line too long pep errors
 let g:syntastic_python_checker_args = "--ignore=E501"
 let g:syntastic_javascript_checker = "jshint"
@@ -178,3 +179,4 @@ let g:syntastic_javascript_jshint_conf = $HOME."/.vim/syntax/jshint.json"
 let b:shell = " "
 
 :set fileformat=unix
+nmap <Leader>e :CommandTTag<CR>
