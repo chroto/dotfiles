@@ -9,6 +9,8 @@ call pathogen#infect()
 filetype plugin indent on
 syntax on
 
+set t_Co=256
+
 "" set leader to easier key
 let mapleader=","
 
@@ -143,9 +145,12 @@ map gw :g/\s\+$//
 "" rotate 2 items along a comma
 map g, :s/\([^()]*\),\([^()]*\)/\2,\1/<Enter>
 
+"" paste from system clipboard
 map gp "*p
 map gP "*P
 map gy "*y
+
+map g; :s/\v^(.+)$/\1;/<CR>:noh<CR>
 
 "" open scratch
 nmap <C-s> :Sscratch
