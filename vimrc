@@ -167,6 +167,9 @@ let g:syntastic_javascript_checker = "jshint"
 " at jshint.com.
 let g:syntastic_javascript_jshint_conf = $HOME."/.vim/syntax/jshint.json"
 
+" remove annoying comment non-indenting
+:inoremap # X#
+
 let b:shell = " "
 
 :set fileformat=unix
