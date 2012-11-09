@@ -85,5 +85,11 @@ snippet ifmain
 snippet _
 	__${1:init}__${2}
 
+snippet pdb
+	import pdb; pdb.set_trace()
+
+snippet ass
+	assert False
+
 snippet sup
 	super(`GetCurrentPythonClass()`, self).`GetCurrentPythonMethod()`(${1:`GetCurrentArgs()`})${2}
