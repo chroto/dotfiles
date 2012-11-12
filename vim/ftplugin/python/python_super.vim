@@ -1,5 +1,5 @@
 function! GetCurrentPythonClass()
-    call search('^\s*class ', 'sbe')
+    call search('^\s*class \ze\S\+\s*(', 'sbe')
     let class = expand('<cword>')
     normal ''
     return class
@@ -12,10 +12,17 @@ function! GetCurrentPythonMethod()
     return method
 endfunction
 
-function! GetCurrentArgs()
-    let line_number = search('^\s*def[^(]\+(self', 'sbe')
-    echo line_number
-    let args = matchstr(getline(line_number), '^\s*def[^(]\+(self,\s*\zs.*\ze):$')
+function! GetFirstPythonArg()
+    call search('^\s*def \S\+(', 'sbe')
+    let method = expand('<cword>')
+    normal ''
+    return method
+endfunction
+
+function! GetCurrentPythonArgs()
+    let line_number = search('^\s*def[^(]\+([^,]*,', 'sbe')
+    let args = matchstr(getline(line_number), '^\s*def[^(]\+([^,]\+,\s*\zs.*\ze):$')
+    let args = substitute(args, '\s*=[^,]\+', '', 'g')
     normal ''
     return args
 endfunction

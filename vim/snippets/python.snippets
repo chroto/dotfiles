@@ -92,4 +92,4 @@ snippet ass
 	assert False
 
 snippet sup
-	super(`GetCurrentPythonClass()`, self).`GetCurrentPythonMethod()`(${1:`GetCurrentArgs()`})${2}
+	super(`GetCurrentPythonClass()`, `GetFirstPythonArg()`).`GetCurrentPythonMethod()`(${1:`GetCurrentPythonArgs()`})${2}
