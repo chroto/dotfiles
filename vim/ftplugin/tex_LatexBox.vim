@@ -30,6 +30,6 @@ execute 'source ' . s:FNameEscape(prefix . 'mappings.vim')
 execute 'source ' . s:FNameEscape(prefix . 'indent.vim')
 
 "" User edit: for automake
-au BufWritePost *.tex !pdflatex %
+au BufWritePost *.tex !xelatex %
 
 " vim:fdm=marker:ff=unix:noet:ts=4:sw=4
