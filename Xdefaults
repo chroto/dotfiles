@@ -28,7 +28,6 @@ XTerm*color15: #ffffff
 XTerm*cursorColor: magenta
 XTerm*utf8: 1
 
-
 !!!!!!!!
 ! uxterm
 !!!!!!!!
@@ -62,13 +61,21 @@ UXTerm*scrollBar: false
 
 UXTerm.urgentOnBell: True
 
-UXTerm.insecure: true
-
-UXTerm*font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-u
+UXTerm*font: -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-u
+UXTerm*font1:     -misc-fixed-medium-r-normal--18-120-100-100-c-90-iso10646-1
+UXTerm*widefont: -misc-fixed-medium-r-normal-ja-18-120-100-100-c-180-iso10646-1
 UXTerm*background: #3f3f3f
 UXTerm*foreground: #dcdccc
+UXTerm.fontMenu.fontdefault.Label: Normal
+UXTerm.fontMenu.font1.Label: Illegible
+UXTerm.fontMenu.font2.Label: Smallest
+UXTerm.fontMenu.font3.Label: Small
+UXTerm.fontMenu.font4.Label: Large
+UXTerm.fontMenu.font5.Label: Huge
+UXTerm.fontMenu.font6.Label: Bold
 
-!!!!!!!!
+
+!!!!!!!
 ! urxvt
 !!!!!!!!
 URxvt*termName: rxvt-256color
@@ -85,7 +92,7 @@ URxvt.urgentOnBell: True
 
 URxvt.insecure: true
 
-URxvt*font: -*-terminus-medium-*-*-*-16-*-*-*-*-*-*-u
+URxvt*font: -*-terminus-medium-*-*-*-14-*-*-*-*-*-*-u
 URxvt*background: #3f3f3f
 URxvt*foreground: #dcdccc
 
