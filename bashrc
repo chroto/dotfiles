@@ -29,6 +29,9 @@ fi
 if [[ -d ~/.gem/ruby/1.9.1/bin ]]; then
     append_to_path ~/.gem/ruby/1.9.1/bin;
 fi
+GEM_HOME="$HOME/.gems"
+export GEM_HOME
+
 
 # http://help.github.com/ssh-key-passphrases/
 
