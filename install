@@ -8,47 +8,47 @@ if [[ ! `grep 'source sh/profile' < ~/.bash_profile` ]]; then
 fi
 
 if [[ ! -e ~/.vim ]]; then
-  ln -s ~/dotfiles/vim .vim
+  ln -s ~/.dotfiles/vim .vim
 fi
 
 if [[ ! -e ~/.gitprofile ]]; then
-  ln -s ~/dotfiles/gitprofile .gitprofile
+  ln -s ~/.dotfiles/gitprofile .gitprofile
 fi
 
 if [[ ! -e ~/.bashrc ]]; then
-  ln -s ~/dotfiles/bashrc .bashrc
+  ln -s ~/.dotfiles/bashrc .bashrc
 fi
 
 if [[ ! -e ~/.vimrc ]]; then
-  ln -s ~/dotfiles/vimrc .vimrc
+  ln -s ~/.dotfiles/vimrc .vimrc
 fi
 
 if [[ ! -e ~/.bash_logout ]]; then
-  ln -s ~/dotfiles/bash_logout .bash_logout
+  ln -s ~/.dotfiles/bash_logout .bash_logout
 fi
 
 if [[ ! -e ~/.aliases ]]; then
-  ln -s ~/dotfiles/aliases .aliases
+  ln -s ~/.dotfiles/aliases .aliases
 fi
 
 if [[ ! -e ~/.xinitrc ]]; then
-  ln -s ~/dotfiles/xinitrc .xinitrc
+  ln -s ~/.dotfiles/xinitrc .xinitrc
 fi
 
 if [[ ! -e ~/.inputrc ]]; then
-  ln -s ~/dotfiles/inputrc .inputrc
+  ln -s ~/.dotfiles/inputrc .inputrc
 fi
 
 if [[ ! -e ~/.Xdefaults ]]; then
-  ln -s ~/dotfiles/Xdefaults .Xdefaults
+  ln -s ~/.dotfiles/Xdefaults .Xdefaults
 fi
 
 if [[ ! -e ~/.Xresources ]]; then
-  ln -s ~/dotfiles/Xresources .Xresources
+  ln -s ~/.dotfiles/Xresources .Xresources
 fi
 
 if [[ ! -e ~/.gitconfig ]]; then
-  cp ~/dotfiles/gitconfig .gitconfig
+  cp ~/.dotfiles/gitconfig .gitconfig
 fi
 
 if [[ ! -e ~/.xmonad ]]; then
@@ -56,9 +56,9 @@ if [[ ! -e ~/.xmonad ]]; then
 fi
 
 if [[ ! -e ~/.xmonad/xmonad.hs ]]; then
-  cp ~/dotfiles/xmonad/xmonad.hs .xmonad
+  cp ~/.dotfiles/xmonad/xmonad.hs .xmonad
 fi
 
 if [[ ! -e ~/.xmobarrc ]]; then
-  cp ~/dotfiles/xmonad/xmobarrc .xmobarrc
+  cp ~/.dotfiles/xmonad/xmobarrc .xmobarrc
 fi
