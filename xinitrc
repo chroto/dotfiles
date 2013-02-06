@@ -4,7 +4,7 @@ xset fp rehash
  # set the cursor
 xsetroot -cursor_name left_ptr
 setxkbmap us -variant colemak
-xautolock -time 10 -locker "gnome-screensaver-command -l" -notify 10 \
+xautolock -time 10 -locker "xlock" -notify 10 \
   -notifier "notify-send -t 5000 -i gtk-dialog-info 'Locking in 10 seconds'" &
 
 export XIM=fcitx
