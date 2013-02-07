@@ -30,6 +30,12 @@ if [[ -d ~/.gem/ruby/1.9.1/bin ]]; then
     append_to_path ~/.gem/ruby/1.9.1/bin;
 fi
 
+# RUBY GEMS
+GEM_HOME="$HOME/.gems"
+export GEM_HOME
+PATH=$PATH:$GEM_HOME/bin
+
+
 # http://help.github.com/ssh-key-passphrases/
 
 SSH_ENV="$HOME/.ssh/environment"
@@ -78,3 +84,4 @@ else
     fi
 fi
 alias tags="ctags --exclude=*.min.* --exclude=*/CACHE/* -R"
+

@@ -6,6 +6,15 @@
 "" to runtime environment
 filetype off
 call pathogen#infect()
+"
+"" Set up vundle
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+
+"" vundle bundles
+Bundle 'Valloric/YouCompleteMe'
+
 filetype plugin indent on
 syntax on
 
