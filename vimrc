@@ -181,3 +181,4 @@ let b:shell = " "
 :set fileformat=unix
 
 nmap <Leader>e :CommandTTag<CR>
+let g:CommandTSelectPrevMap=['<C-p>', '<C-k>', '<Esc>OA', '<Up>']
