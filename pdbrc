@@ -1,0 +1,1 @@
+alias psql import sqlparse; print sqlparse.format(str(%1.query), reindent=True, keyword_case='upper')
