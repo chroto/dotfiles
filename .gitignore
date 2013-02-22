@@ -2,3 +2,4 @@ vim/ruby
 .VimballRecord
 .netrwhist
 *.pyc
+vim/bundle
