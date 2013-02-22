@@ -1,12 +1,9 @@
 [submodule "f"]
 	path = f
-	url = git@github.com:chroto/f
+    url = https://github.com/colinta/f.git
 [submodule "b"]
 	path = b
 	url = https://github.com/rockymeza/b.git
-[submodule "keyboards"]
-	path = keyboards
-	url = git@github.com:chroto/keyboards
 [submodule "vim/bundle/puppet"]
 	path = vim/bundle/puppet
 	url = https://github.com/rodjek/vim-puppet.git
