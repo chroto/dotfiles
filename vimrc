@@ -194,3 +194,20 @@ let b:shell = " "
 :set fileformat=unix
 
 nmap <Leader>e :CommandTTag<CR>
+
+" ctrlp.vim options
+" I'm too used to using Command-T
+let g:ctrlp_map = '<Leader>p'
+let g:ctrlp_extensions = ['tag', 'buffertag']
+let g:ctrlp_prompt_mappings = {
+    \ 'PrtSelectMove("j")': ['<c-n>', '<c-j>', '<down>'],
+    \ 'PrtSelectMove("k")':   ['<c-p>', '<c-k>', '<up>'],
+    \ 'PrtHistory(-1)':       ['<c-down>'],
+    \ 'PrtHistory(1)':        ['<c-up>'],
+    \ 'ToggleType(1)':        ['<c-right>'],
+    \ 'ToggleType(-1)':       ['<c-left>'],
+    \ 'PrtClearCache()':      ['<c-f>'],
+    \ }
+" Bindings for tags mode and buffer tags mode
+map <Leader>f :CtrlPTag<CR>
+map <Leader>g :CtrlPBufTagAll<CR>
