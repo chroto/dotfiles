@@ -116,7 +116,7 @@ nmap <Space> zz
 "
 
 "" DATE (cool!)
-nmap <leader>d :r !date<CR>
+" nmap <leader>d :r !date<CR>
 
 "" toggle whitespace chars
 nmap <silent> <leader>s :set nolist!<CR>
