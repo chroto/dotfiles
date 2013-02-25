@@ -210,3 +210,6 @@ let g:ctrlp_prompt_mappings = {
 " Bindings for tags mode and buffer tags mode
 map <Leader>t :CtrlPTag<CR>
 map <Leader>b :CtrlPBufTagAll<CR>
+
+" May not need this anymore.  Meant to fix urxvt issue with sequence codes
+" let g:CommandTSelectPrevMap=['<C-p>', '<C-k>', '<Esc>OA', '<Up>']
