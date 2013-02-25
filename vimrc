@@ -196,7 +196,6 @@ let b:shell = " "
 nmap <Leader>e :CommandTTag<CR>
 
 " ctrlp.vim options
-" I'm too used to using Command-T
 let g:ctrlp_map = '<Leader>p'
 let g:ctrlp_extensions = ['tag', 'buffertag']
 let g:ctrlp_prompt_mappings = {
@@ -209,5 +208,5 @@ let g:ctrlp_prompt_mappings = {
     \ 'PrtClearCache()':      ['<c-f>'],
     \ }
 " Bindings for tags mode and buffer tags mode
-map <Leader>f :CtrlPTag<CR>
-map <Leader>g :CtrlPBufTagAll<CR>
+map <Leader>t :CtrlPTag<CR>
+map <Leader>b :CtrlPBufTagAll<CR>
