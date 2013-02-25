@@ -89,8 +89,12 @@ set smartindent
 set autoindent
 set tabstop=4
 set shiftwidth=4
+"
+"" undo
+set undodir=~/.vim_undodir
 set undofile
-set undodir=~/.vim/undodir
+set undolevels=1000
+set undoreload=10000
 """"""
 " Aliases
 "
