@@ -191,11 +191,13 @@ let g:syntastic_javascript_jshint_conf = $HOME."/.vim/syntax/jshint.json"
 
 let b:shell = " "
 
-:set fileformat=unix
+let g:autotagCtagsCmd = "ctags --exclude=*.min.* --exclude=*/CACHE/* --exclude=*.js"
+set fileformat=unix
 
 nmap <Leader>e :CommandTTag<CR>
 
 " ctrlp.vim options
+let g:ctrlp_max_height = 45
 let g:ctrlp_map = '<Leader>p'
 let g:ctrlp_extensions = ['tag', 'buffertag']
 let g:ctrlp_prompt_mappings = {
@@ -210,6 +212,7 @@ let g:ctrlp_prompt_mappings = {
 " Bindings for tags mode and buffer tags mode
 map <Leader>t :CtrlPTag<CR>
 map <Leader>b :CtrlPBufTagAll<CR>
+
 
 " May not need this anymore.  Meant to fix urxvt issue with sequence codes
 " let g:CommandTSelectPrevMap=['<C-p>', '<C-k>', '<Esc>OA', '<Up>']
