@@ -44,4 +44,4 @@ alias mkvirtualenv='mkvirtualenv --no-site-packages'
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 alias myip="curl -L automation.whatismyip.com/n09230945.asp"
-
+alias vi=vim
